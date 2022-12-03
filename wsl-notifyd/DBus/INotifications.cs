@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Tmds.DBus;
 
 [assembly: InternalsVisibleTo(Tmds.DBus.Connection.DynamicAssemblyName)]
-namespace ArkaneSystems.Wsl.Notify.Dbus
+namespace ArkaneSystems.Wsl.Notify.DBus
 {
     [DBusInterface("org.freedesktop.Notifications")]
     interface INotifications : IDBusObject

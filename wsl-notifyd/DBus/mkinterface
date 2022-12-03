@@ -1,0 +1,2 @@
+#! /bin/sh
+dotnet dbus codegen ../../dbus-xml/org.freedesktop.Notifications.xml --namespace ArkaneSystems.Wsl.Notify.DBus --bus session --output INotifications.cs
